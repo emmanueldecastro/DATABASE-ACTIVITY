@@ -1,0 +1,36 @@
+create database SarisariStore;
+
+CREATE TABLE products (
+    ItemNo INT PRIMARY KEY,
+    ItemName VARCHAR(50),
+    Price float,
+    Category VARCHAR(50),
+    ExpirationDate DATE
+);
+
+INSERT INTO products (ItemNo, ItemName, Price, Category, ExpirationDate) VALUES
+(1, 'Nescafe 3in1', 7, 'Beverage', '2025-12-20'),
+(2, 'Lucky Me pancit Canton', 8, 'Food', '2024-05-20'),
+(3, 'SkyFlakes', 20, 'Snacks', '2024-08-20'),
+(4, 'Coke 1.5', 55, 'Beverage', '2025-04-30'),
+(5, 'Milo', 55, 'Beverage', '2025-09-20'),
+(6, 'Bear Brand Milk', 80, 'Beverage', '2025-09-20'),
+(7, 'Great taste white', 8, 'Beverage', '2025-10-20'),
+(8, 'Piattos Chips', 20, 'Snacks', '2024-07-20'),
+(9, 'Palmolive Shampoo', 60, 'Toiletries', '2026-12-20'),
+(10, 'Surf Detergent Bar', 10, 'Household', '2026-12-20'),
+(11, 'Dove Soap', 40, 'Toiletries', '2025-10-20'),
+(12, 'Colgate Toothpaste', 25, 'Toiletries', '2026-01-20'),
+(13, 'C2 green tea', 20, 'Beverage', '2025-04-20'),
+(14, 'Hansel Crackers', 8, 'Snacks', '2024-08-20'),
+(15, 'San Miguel Beer', 45, 'Beverage', '2024-10-20'),
+(16, 'Cooking oil', 100, 'Food', '2024-09-20'),
+(17, 'Knorr seasoning', 15, 'Food', '2025-06-20'),
+(18, 'Lucky me mami', 10, 'Food', '2025-10-20'),
+(19, 'Yakult', 8, 'Beverage', '2024-07-10'),
+(20, 'Fita', 7, 'Snacks', '2024-08-20'),
+(21, 'Corned Beef', 35, 'Food', '2025-09-20'),
+(22, '555 Sardines', 20, 'Food', '2025-06-20'),
+(23, 'Alaska Milk', 50, 'Food', '2024-08-10'),
+(24, 'Oishi', 12, 'Snacks', '2024-08-20'),
+(25, 'Red Horse Beer', 50, 'Beverage', '2025-04-30');
